@@ -11,13 +11,16 @@
   </head>
   <body>
     <div class="container">
+      <div class="jumbotron">
+        <h2>Take our Dating Quiz</h2>
+      </div>
       <form>
         <label for="howOld">How old are you?</label>
         <select id="howOld">
           <option value="young">0-17 yrs</option>
           <option value="youngAdult">18-35 yrs</option>
-          <option value="middleAge">36-54</option>
-          <option value="elderly">55-99</option>
+          <option value="middleAge">36-54 yrs</option>
+          <option value="elderly">55-99 yrs</option>
         </select>
         <br>
         <label for="status">What are you looking for?</label>
@@ -26,7 +29,11 @@
           <option value="weWillSee">We'll see where it goes</option>
           <option value="forever">You're never leaving my sight!</option>
         </select>
+        <br>
+        <button type="submit" class="btn btn-danger">Sumbit Survey</button>
       </form>
+      <div id="output">
+      </div>
     </div>  
   </body>
 </html>
